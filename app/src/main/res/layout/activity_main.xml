@@ -11,7 +11,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button"
         android:layout_width="106dp"
         android:layout_height="53dp"
         android:layout_marginStart="32dp"
@@ -31,11 +31,11 @@
         android:text="Button"
         android:nextFocusDown="@id/switch1"
         android:nextFocusRight="@id/button8"
-        android:nextFocusLeft="@id/button1"
+        android:nextFocusLeft="@id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button1" />
+        app:layout_constraintTop_toTopOf="@+id/button" />
 
     <Button
         android:id="@+id/button8"
@@ -44,7 +44,7 @@
         android:layout_marginStart="32dp"
         android:text="Button"
         android:nextFocusDown="@id/switch1"
-        android:nextFocusRight="@id/button1"
+        android:nextFocusRight="@id/button"
         android:nextFocusLeft="@id/button2"
         app:layout_constraintStart_toEndOf="@+id/button2"
         app:layout_constraintTop_toTopOf="@+id/button2" />
@@ -69,8 +69,8 @@
         android:layout_width="229dp"
         android:layout_height="124dp"
         android:layout_marginTop="32dp"
-        app:layout_constraintStart_toStartOf="@+id/button1"
-        app:layout_constraintTop_toBottomOf="@+id/button1"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button"
         app:srcCompat="@drawable/flag" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
